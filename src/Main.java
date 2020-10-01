@@ -2,7 +2,6 @@ import sortingAlgorithms.BubbleSorter;
 import sortingAlgorithms.InsertionSorter;
 import sortingAlgorithms.SelectionSorter;
 import utils.ArrayCreator;
-import utils.ArrayCreator_int;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;
