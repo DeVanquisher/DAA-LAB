@@ -1,11 +1,13 @@
 package sortingAlgorithms;
 
 
+import utils.ArrayCreator;
 
 public class InsertionSorter {
-    public void sortArray(double[] array){
+    ArrayCreator arrayCreator = new ArrayCreator();
+    public void sortArray(int[] array){
         for (int i = 1; i<array.length; i++){
-            double temp = array[i];
+            int temp = array[i];
             int j = i-1;
             while (j>=0 && array[j]>temp){
                 array[j+1] = array[j];
@@ -13,9 +15,7 @@ public class InsertionSorter {
             }
             array[j+1] = temp;
         }
-        System.out.print("\nArray sorted : ");
-        for (int i=0; i<array.length; i++){
-            System.out.print(array[i]+" ");
-        }
+        System.out.print("Array sorted : ");
+        arrayCreator.printArray(array);
     }
 }

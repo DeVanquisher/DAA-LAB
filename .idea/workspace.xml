@@ -2,9 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6d208cda-040c-4e20-8b94-ac801191087c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/SortingAlgorithm/sortingAlgorithms/QuickSorter.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SortingAlgorithm/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SortingAlgorithm/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SortingAlgorithm/sortingAlgorithms/BubbleSorter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SortingAlgorithm/sortingAlgorithms/BubbleSorter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SortingAlgorithm/sortingAlgorithms/InsertionSorter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SortingAlgorithm/sortingAlgorithms/InsertionSorter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SortingAlgorithm/sortingAlgorithms/SelectionSorter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SortingAlgorithm/sortingAlgorithms/SelectionSorter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SortingAlgorithm/utils/ArrayCreator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SortingAlgorithm/utils/ArrayCreator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SortingAlgorithm/utils/ArrayCreator_int.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sortingAlgorithms/BubbleSorter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sortingAlgorithms/BubbleSorter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sortingAlgorithms/InsertionSorter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sortingAlgorithms/InsertionSorter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sortingAlgorithms/QuickSorter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sortingAlgorithms/QuickSorter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sortingAlgorithms/SelectionSorter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sortingAlgorithms/SelectionSorter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/ArrayCreator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/ArrayCreator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,6 +25,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -75,13 +87,25 @@
       <option name="presentableId" value="Default" />
       <updated>1599927143126</updated>
     </task>
+    <task id="LOCAL-00001" summary="ArrayCreator_int class deleted">
+      <created>1601532729410</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1601532729410</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="ArrayCreator_int class deleted" />
+    <option name="LAST_COMMIT_MESSAGE" value="ArrayCreator_int class deleted" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="446" y="46" key="#com.intellij.ide.util.MemberChooser" timestamp="1600103056873">
+    <state x="446" y="46" key="#com.intellij.ide.util.MemberChooser" timestamp="1601548832630">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="446" y="46" key="#com.intellij.ide.util.MemberChooser/0.0.1280.720@0.0.1280.720" timestamp="1600103056873" />
+    <state x="446" y="46" key="#com.intellij.ide.util.MemberChooser/0.0.1280.720@0.0.1280.720" timestamp="1601548832630" />
     <state x="371" y="138" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1599929947242">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
@@ -94,33 +118,37 @@
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="0" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1280.720@0.0.1280.720" timestamp="1601009986940" />
-    <state x="371" y="109" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1601463049097">
+    <state x="371" y="109" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1601548722641">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="371" y="109" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.720@0.0.1280.720" timestamp="1601463049097" />
-    <state x="280" y="0" key="CommitChangelistDialog2" timestamp="1601532728046">
+    <state x="371" y="109" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.720@0.0.1280.720" timestamp="1601548722641" />
+    <state x="280" y="0" key="CommitChangelistDialog2" timestamp="1601809365891">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="280" y="0" key="CommitChangelistDialog2/0.0.1280.720@0.0.1280.720" timestamp="1601532728046" />
-    <state width="1237" height="98" key="GridCell.Tab.0.bottom" timestamp="1601522006742">
+    <state x="280" y="0" key="CommitChangelistDialog2/0.0.1280.720@0.0.1280.720" timestamp="1601809365891" />
+    <state x="421" y="117" key="FileChooserDialogImpl" timestamp="1601612799315">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="98" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1601522006742" />
+    <state x="421" y="117" key="FileChooserDialogImpl/0.0.1280.720@0.0.1280.720" timestamp="1601612799315" />
+    <state width="1237" height="136" key="GridCell.Tab.0.bottom" timestamp="1601745821862">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1237" height="136" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1601745821862" />
     <state width="1323" height="238" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1600008172513" />
-    <state width="1237" height="98" key="GridCell.Tab.0.center" timestamp="1601522006742">
+    <state width="1237" height="136" key="GridCell.Tab.0.center" timestamp="1601745821862">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="98" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1601522006742" />
+    <state width="1237" height="136" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1601745821862" />
     <state width="1323" height="238" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1600008172513" />
-    <state width="1237" height="98" key="GridCell.Tab.0.left" timestamp="1601522006742">
+    <state width="1237" height="136" key="GridCell.Tab.0.left" timestamp="1601745821862">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="98" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1601522006742" />
+    <state width="1237" height="136" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1601745821862" />
     <state width="1323" height="238" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1600008172513" />
-    <state width="1237" height="98" key="GridCell.Tab.0.right" timestamp="1601522006742">
+    <state width="1237" height="136" key="GridCell.Tab.0.right" timestamp="1601745821862">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="98" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1601522006742" />
+    <state width="1237" height="136" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1601745821862" />
     <state width="1323" height="238" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1600008172513" />
     <state width="1237" height="238" key="GridCell.Tab.1.bottom" timestamp="1600017228774">
       <screen x="0" y="0" width="1280" height="720" />
@@ -142,13 +170,17 @@
     </state>
     <state width="1237" height="238" key="GridCell.Tab.1.right/0.0.1280.720@0.0.1280.720" timestamp="1600017228774" />
     <state width="1323" height="238" key="GridCell.Tab.1.right/0.0.1366.768@0.0.1366.768" timestamp="1600008194377" />
-    <state x="337" y="186" key="com.intellij.ide.util.TipDialog" timestamp="1601519908164">
+    <state x="337" y="186" key="com.intellij.ide.util.TipDialog" timestamp="1601809282195">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="337" y="186" key="com.intellij.ide.util.TipDialog/0.0.1280.720@0.0.1280.720" timestamp="1601519908164" />
-    <state x="91" y="0" key="new project wizard" timestamp="1601116920140">
+    <state x="337" y="186" key="com.intellij.ide.util.TipDialog/0.0.1280.720@0.0.1280.720" timestamp="1601809282195" />
+    <state x="91" y="0" key="new project wizard" timestamp="1601559920290">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="91" y="0" key="new project wizard/0.0.1280.720@0.0.1280.720" timestamp="1601116920140" />
+    <state x="91" y="0" key="new project wizard/0.0.1280.720@0.0.1280.720" timestamp="1601559920290" />
+    <state x="348" y="0" key="refactoring.ChangeSignatureDialog" timestamp="1601723228659">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="348" y="0" key="refactoring.ChangeSignatureDialog/0.0.1280.720@0.0.1280.720" timestamp="1601723228659" />
   </component>
 </project>

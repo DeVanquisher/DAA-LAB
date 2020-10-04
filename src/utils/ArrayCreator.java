@@ -5,23 +5,33 @@ import java.util.Scanner;
 
 public class ArrayCreator {
     Scanner scanner = new Scanner(System.in);
-    double element;
-    public void createArray(double[] array){
+    int element;
+    public void createArray(int[] array){
         for (int i = 0; i<array.length; i++){
             System.out.print("\nEnter element :");
             try{
-                element = scanner.nextDouble();
+                element = scanner.nextInt();
                 array[i] = element;
             }
             catch (InputMismatchException e){
                 System.out.println("Invalid input, please enter a number only!");
-                scanner.next();
+                scanner.nextBigDecimal();
                 continue;
             }
         }
         System.out.print("Array created : ");
+        printArray(array);
+    }
+    public void printArray(int[] array){
+
         for (int i=0; i<array.length; i++){
-            System.out.print(array[i]+" ");
+            if (i==0)
+                System.out.print("[");
+            System.out.print(array[i]);
+            if (i<array.length-1)
+                System.out.print(", ");
+            if (i==array.length-1)
+                System.out.print("]");
         }
     }
 }

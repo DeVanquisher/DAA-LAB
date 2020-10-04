@@ -1,8 +1,11 @@
 package sortingAlgorithms;
 
 
+import utils.ArrayCreator;
+
 public class SelectionSorter {
-    public void sortArray(double[] array){
+    public void sortArray(int[] array){
+        ArrayCreator arrayCreator = new ArrayCreator();
         int len = array.length;
         for(int i=0; i<len-1; i++){
             int min = i;
@@ -11,13 +14,12 @@ public class SelectionSorter {
                     min = j;
             }
             if(min != i){
-                double temp = array[i];
+                int temp = array[i];
                 array[i] = array[min];
                 array[min] = temp;
             }
         }
-        for(int k=0; k<len; k++){
-            System.out.print(array[k]+" ");
-        }
+        System.out.print("Array sorted : ");
+        arrayCreator.printArray(array);
     }
 }
