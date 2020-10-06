@@ -4,26 +4,25 @@ import utils.ArrayCreator;
 
 public class QuickSorter {
     ArrayCreator arrayCreator = new ArrayCreator();
-    public void sortArray(int[] array, int lb, int ub){
-        if (lb<ub){
-            int loc = partition(array,lb,ub);
-            sortArray(array,lb,loc-1);
-            sortArray(array,loc+1,ub);
-        }
-        System.out.print("Array sorted : ");
-        arrayCreator.printArray(array);
 
+    public void sortArray(int[] array, int lb, int ub) {
+        if (lb < ub) {
+            int loc = partition(array, lb, ub);
+            sortArray(array, lb, loc - 1);
+            sortArray(array, loc + 1, ub);
+        }
     }
-    public int partition(int[] array, int lb, int ub){
+
+    public int partition(int[] array, int lb, int ub) {
         int pivot = array[lb];
         int start = lb;
         int end = ub;
         int temp1;
         int temp2;
-        while (start < end){
-            while (array[start]<= pivot)
+        while (start < end) {
+            while (array[start] <= pivot)
                 start++;
-            while (array[end] > pivot){
+            while (array[end] > pivot) {
                 end--;
             }
             if (start < end) {
@@ -34,7 +33,7 @@ public class QuickSorter {
         }
         temp2 = array[lb];
         array[lb] = array[end];
-        array[end] = array[lb];
+        array[end] = temp2;
         return end;
     }
 }

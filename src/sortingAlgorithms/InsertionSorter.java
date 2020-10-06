@@ -15,7 +15,5 @@ public class InsertionSorter {
             }
             array[j+1] = temp;
         }
-        System.out.print("Array sorted : ");
-        arrayCreator.printArray(array);
     }
 }

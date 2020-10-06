@@ -22,7 +22,5 @@ public class BubbleSorter {
             if (flag == 0)
                 break;
         }
-        System.out.print("Array sorted : ");
-        arrayCreator.printArray(array);
     }
 }

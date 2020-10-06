@@ -7,15 +7,15 @@ public class ArrayCreator {
     Scanner scanner = new Scanner(System.in);
     int element;
     public void createArray(int[] array){
+        System.out.println("\nEnter "+array.length+" element below:");
         for (int i = 0; i<array.length; i++){
-            System.out.print("\nEnter element :");
             try{
                 element = scanner.nextInt();
                 array[i] = element;
             }
             catch (InputMismatchException e){
                 System.out.println("Invalid input, please enter a number only!");
-                scanner.nextBigDecimal();
+                scanner.nextInt();
                 continue;
             }
         }

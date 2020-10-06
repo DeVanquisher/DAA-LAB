@@ -1,10 +1,6 @@
-import sortingAlgorithms.BubbleSorter;
-import sortingAlgorithms.InsertionSorter;
-import sortingAlgorithms.QuickSorter;
-import sortingAlgorithms.SelectionSorter;
+import sortingAlgorithms.*;
 import utils.ArrayCreator;
 
-import java.math.BigDecimal;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
@@ -17,10 +13,12 @@ public class Main {
         InsertionSorter insertionSorter = new InsertionSorter();
         SelectionSorter selectionSorter = new SelectionSorter();
         QuickSorter quickSorter = new QuickSorter();
+        MergeSorter mergeSorter = new MergeSorter();
+
         Scanner sc = new Scanner(System.in);
         while (true) {
             try {
-                System.out.print("How many elements you want to enter: ");
+                System.out.print("Enter the size of array: ");
                 int size = sc.nextInt();
                 int[] array = new int[size];
                 arrayCreator.createArray(array);
@@ -28,20 +26,38 @@ public class Main {
                         "press-->1 to Bubble sort\n" +
                         "press-->2 to Insertion sort\n"+
                         "press-->3 to Selection sort\n"+
-                        "press-->4 to Quick sort");
+                        "press-->4 to Quick sort\n"+
+                        "press-->5 to Merge sort");
                 int key = sc.nextInt();
                 switch (key)
                 {
                     case 1: bubbleSorter.sortArray(array);
-                    break;
+                        //printing sorted array
+                        System.out.print("Array sorted : ");
+                        arrayCreator.printArray(array);
+                        break;
                     case 2: insertionSorter.sortArray(array);
-                    break;
+                        //printing sorted array
+                        System.out.print("Array sorted : ");
+                        arrayCreator.printArray(array);
+                        break;
                     case 3: selectionSorter.sortArray(array);
-                    break;
-                    case 4: quickSorter.sortArray(array,array[0],array[array.length-1]);
-                    break;
+                        //printing sorted array
+                        System.out.print("Array sorted : ");
+                        arrayCreator.printArray(array);
+                        break;
+                    case 4: quickSorter.sortArray(array,array[0],array[array.length]-1);
+                        //printing sorted array
+                        System.out.print("Array sorted : ");
+                        arrayCreator.printArray(array);
+                        break;
+                    case 5: mergeSorter.sortArray(array,0,array.length-1);
+                        //printing sorted array
+                        System.out.print("Array sorted : ");
+                        arrayCreator.printArray(array);
+                        break;
                     default: System.out.println("Wrong key choose either 1, 2 or 3.");
-                    continue;
+                        continue;
                 }
                 break;
             } catch (InputMismatchException e) {

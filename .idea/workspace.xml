@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6d208cda-040c-4e20-8b94-ac801191087c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/out/production/SortingAlgorithm/sortingAlgorithms/QuickSorter.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SortingAlgorithm/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SortingAlgorithm/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SortingAlgorithm/sortingAlgorithms/BubbleSorter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SortingAlgorithm/sortingAlgorithms/BubbleSorter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SortingAlgorithm/sortingAlgorithms/InsertionSorter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SortingAlgorithm/sortingAlgorithms/InsertionSorter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SortingAlgorithm/sortingAlgorithms/SelectionSorter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SortingAlgorithm/sortingAlgorithms/SelectionSorter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SortingAlgorithm/sortingAlgorithms/QuickSorter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SortingAlgorithm/sortingAlgorithms/QuickSorter.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/SortingAlgorithm/utils/ArrayCreator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SortingAlgorithm/utils/ArrayCreator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SortingAlgorithm/utils/ArrayCreator_int.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sortingAlgorithms/BubbleSorter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sortingAlgorithms/BubbleSorter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sortingAlgorithms/InsertionSorter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sortingAlgorithms/InsertionSorter.java" afterDir="false" />
@@ -31,6 +26,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1hPyhjtOrJTyuFECKdirqUE5JNC" />
@@ -94,7 +94,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601532729410</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="ArrayCreator_int class deleted">
+      <created>1601809397723</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1601809397723</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -110,10 +117,10 @@
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="371" y="138" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1280.720@0.0.1280.720" timestamp="1599929947242" />
-    <state x="438" y="247" width="404" height="236" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1599929949966">
+    <state x="438" y="247" width="404" height="236" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1601977819158">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="438" y="247" width="404" height="236" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1280.720@0.0.1280.720" timestamp="1599929949966" />
+    <state x="438" y="247" width="404" height="236" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1280.720@0.0.1280.720" timestamp="1601977819158" />
     <state x="0" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1601009986940">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
@@ -122,58 +129,70 @@
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="371" y="109" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.720@0.0.1280.720" timestamp="1601548722641" />
-    <state x="280" y="0" key="CommitChangelistDialog2" timestamp="1601809365891">
+    <state x="280" y="0" key="CommitChangelistDialog2" timestamp="1601809396152">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="280" y="0" key="CommitChangelistDialog2/0.0.1280.720@0.0.1280.720" timestamp="1601809365891" />
+    <state x="280" y="0" key="CommitChangelistDialog2/0.0.1280.720@0.0.1280.720" timestamp="1601809396152" />
     <state x="421" y="117" key="FileChooserDialogImpl" timestamp="1601612799315">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="421" y="117" key="FileChooserDialogImpl/0.0.1280.720@0.0.1280.720" timestamp="1601612799315" />
-    <state width="1237" height="136" key="GridCell.Tab.0.bottom" timestamp="1601745821862">
+    <state width="1237" height="135" key="GridCell.Tab.0.bottom" timestamp="1601979165731">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="136" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1601745821862" />
+    <state width="1237" height="135" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1601979165731" />
     <state width="1323" height="238" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1600008172513" />
-    <state width="1237" height="136" key="GridCell.Tab.0.center" timestamp="1601745821862">
+    <state width="1237" height="135" key="GridCell.Tab.0.center" timestamp="1601979165731">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="136" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1601745821862" />
+    <state width="1237" height="135" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1601979165731" />
     <state width="1323" height="238" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1600008172513" />
-    <state width="1237" height="136" key="GridCell.Tab.0.left" timestamp="1601745821862">
+    <state width="1237" height="135" key="GridCell.Tab.0.left" timestamp="1601979165731">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="136" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1601745821862" />
+    <state width="1237" height="135" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1601979165731" />
     <state width="1323" height="238" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1600008172513" />
-    <state width="1237" height="136" key="GridCell.Tab.0.right" timestamp="1601745821862">
+    <state width="1237" height="135" key="GridCell.Tab.0.right" timestamp="1601979165731">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="136" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1601745821862" />
+    <state width="1237" height="135" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1601979165731" />
     <state width="1323" height="238" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1600008172513" />
-    <state width="1237" height="238" key="GridCell.Tab.1.bottom" timestamp="1600017228774">
+    <state width="1237" height="127" key="GridCell.Tab.1.bottom" timestamp="1601978635426">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="238" key="GridCell.Tab.1.bottom/0.0.1280.720@0.0.1280.720" timestamp="1600017228774" />
+    <state width="1237" height="127" key="GridCell.Tab.1.bottom/0.0.1280.720@0.0.1280.720" timestamp="1601978635426" />
     <state width="1323" height="238" key="GridCell.Tab.1.bottom/0.0.1366.768@0.0.1366.768" timestamp="1600008194377" />
-    <state width="1237" height="238" key="GridCell.Tab.1.center" timestamp="1600017228774">
+    <state width="1237" height="127" key="GridCell.Tab.1.center" timestamp="1601978635426">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="238" key="GridCell.Tab.1.center/0.0.1280.720@0.0.1280.720" timestamp="1600017228774" />
+    <state width="1237" height="127" key="GridCell.Tab.1.center/0.0.1280.720@0.0.1280.720" timestamp="1601978635426" />
     <state width="1323" height="238" key="GridCell.Tab.1.center/0.0.1366.768@0.0.1366.768" timestamp="1600008194377" />
-    <state width="1237" height="238" key="GridCell.Tab.1.left" timestamp="1600017228774">
+    <state width="1237" height="127" key="GridCell.Tab.1.left" timestamp="1601978635426">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="238" key="GridCell.Tab.1.left/0.0.1280.720@0.0.1280.720" timestamp="1600017228774" />
+    <state width="1237" height="127" key="GridCell.Tab.1.left/0.0.1280.720@0.0.1280.720" timestamp="1601978635426" />
     <state width="1323" height="238" key="GridCell.Tab.1.left/0.0.1366.768@0.0.1366.768" timestamp="1600008194377" />
-    <state width="1237" height="238" key="GridCell.Tab.1.right" timestamp="1600017228774">
+    <state width="1237" height="127" key="GridCell.Tab.1.right" timestamp="1601978635426">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="238" key="GridCell.Tab.1.right/0.0.1280.720@0.0.1280.720" timestamp="1600017228774" />
+    <state width="1237" height="127" key="GridCell.Tab.1.right/0.0.1280.720@0.0.1280.720" timestamp="1601978635426" />
     <state width="1323" height="238" key="GridCell.Tab.1.right/0.0.1366.768@0.0.1366.768" timestamp="1600008194377" />
-    <state x="337" y="186" key="com.intellij.ide.util.TipDialog" timestamp="1601809282195">
+    <state x="233" y="95" key="Vcs.Push.Dialog.v2" timestamp="1601809410068">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="337" y="186" key="com.intellij.ide.util.TipDialog/0.0.1280.720@0.0.1280.720" timestamp="1601809282195" />
+    <state x="233" y="95" key="Vcs.Push.Dialog.v2/0.0.1280.720@0.0.1280.720" timestamp="1601809410068" />
+    <state x="337" y="186" key="com.intellij.ide.util.TipDialog" timestamp="1601950721279">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="337" y="186" key="com.intellij.ide.util.TipDialog/0.0.1280.720@0.0.1280.720" timestamp="1601950721279" />
+    <state x="450" y="279" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1601908164206">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="450" y="279" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.720@0.0.1280.720" timestamp="1601908164206" />
+    <state x="427" y="256" key="git4idea.ui.GitResetDialog" timestamp="1601908133377">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="427" y="256" key="git4idea.ui.GitResetDialog/0.0.1280.720@0.0.1280.720" timestamp="1601908133377" />
     <state x="91" y="0" key="new project wizard" timestamp="1601559920290">
       <screen x="0" y="0" width="1280" height="720" />
     </state>

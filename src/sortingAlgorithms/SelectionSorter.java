@@ -19,7 +19,5 @@ public class SelectionSorter {
                 array[min] = temp;
             }
         }
-        System.out.print("Array sorted : ");
-        arrayCreator.printArray(array);
     }
 }
