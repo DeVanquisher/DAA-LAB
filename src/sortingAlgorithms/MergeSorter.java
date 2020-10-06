@@ -1,9 +1,7 @@
 package sortingAlgorithms;
 
-import utils.ArrayCreator;
 
 public class MergeSorter {
-    ArrayCreator arrayCreator = new ArrayCreator();
 
     public void sortArray(int[] array,int l, int r){
         if (l < r) {

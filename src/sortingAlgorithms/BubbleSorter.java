@@ -3,11 +3,9 @@ package sortingAlgorithms;
 
 import utils.ArrayCreator;
 
-import java.math.BigDecimal;
 
 public class BubbleSorter {
     public void sortArray(int[] array){
-        ArrayCreator arrayCreator = new ArrayCreator();
         for (int i = 0; i<(array.length)-1; i++){
             int flag = 0;
             for (int j=0; j<(array.length)-i-1;j++){

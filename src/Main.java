@@ -46,7 +46,7 @@ public class Main {
                         System.out.print("Array sorted : ");
                         arrayCreator.printArray(array);
                         break;
-                    case 4: quickSorter.sortArray(array,array[0],array[array.length]-1);
+                    case 4: quickSorter.sortArray(array,0,array.length-1);
                         //printing sorted array
                         System.out.print("Array sorted : ");
                         arrayCreator.printArray(array);

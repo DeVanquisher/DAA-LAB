@@ -1,39 +1,45 @@
 package sortingAlgorithms;
 
-import utils.ArrayCreator;
 
 public class QuickSorter {
-    ArrayCreator arrayCreator = new ArrayCreator();
 
-    public void sortArray(int[] array, int lb, int ub) {
-        if (lb < ub) {
-            int loc = partition(array, lb, ub);
-            sortArray(array, lb, loc - 1);
-            sortArray(array, loc + 1, ub);
+    public void sortArray(int[] array, int low, int high) {
+        if (low < high)
+        {
+            /* pi is partitioning index, arr[pi] is
+              now at right place */
+            int pi = partition(array, low, high);
+
+            // Recursively sort elements before
+            // partition and after partition
+            sortArray(array, low, pi-1);
+            sortArray(array, pi+1, high);
         }
     }
 
-    public int partition(int[] array, int lb, int ub) {
-        int pivot = array[lb];
-        int start = lb;
-        int end = ub;
-        int temp1;
-        int temp2;
-        while (start < end) {
-            while (array[start] <= pivot)
-                start++;
-            while (array[end] > pivot) {
-                end--;
-            }
-            if (start < end) {
-                temp1 = array[start];
-                array[start] = array[end];
-                array[end] = array[temp1];
+    int partition(int arr[], int low, int high)
+    {
+        int pivot = arr[high];
+        int i = (low-1); // index of smaller element
+        for (int j=low; j<high; j++)
+        {
+            // If current element is smaller than the pivot
+            if (arr[j] < pivot)
+            {
+                i++;
+
+                // swap arr[i] and arr[j]
+                int temp = arr[i];
+                arr[i] = arr[j];
+                arr[j] = temp;
             }
         }
-        temp2 = array[lb];
-        array[lb] = array[end];
-        array[end] = temp2;
-        return end;
+
+        // swap arr[i+1] and arr[high] (or pivot)
+        int temp = arr[i+1];
+        arr[i+1] = arr[high];
+        arr[high] = temp;
+
+        return i+1;
     }
 }

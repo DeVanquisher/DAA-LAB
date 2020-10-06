@@ -1,11 +1,8 @@
 package sortingAlgorithms;
 
 
-import utils.ArrayCreator;
-
 public class SelectionSorter {
     public void sortArray(int[] array){
-        ArrayCreator arrayCreator = new ArrayCreator();
         int len = array.length;
         for(int i=0; i<len-1; i++){
             int min = i;

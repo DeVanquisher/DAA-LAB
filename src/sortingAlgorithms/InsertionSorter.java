@@ -1,10 +1,8 @@
 package sortingAlgorithms;
 
 
-import utils.ArrayCreator;
 
 public class InsertionSorter {
-    ArrayCreator arrayCreator = new ArrayCreator();
     public void sortArray(int[] array){
         for (int i = 1; i<array.length; i++){
             int temp = array[i];
