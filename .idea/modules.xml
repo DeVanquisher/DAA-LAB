@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/SortingAlgorithm.iml" filepath="$PROJECT_DIR$/SortingAlgorithm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DAA-LAB.iml" filepath="$PROJECT_DIR$/DAA-LAB.iml" />
     </modules>
   </component>
 </project>
