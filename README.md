@@ -1,6 +1,8 @@
 # DAA-LAB
 Experiments of DAA-LAB of 5th semester
 
+This is the project architecture.
+
 All java files present in src package
 src contains three packeges and a main class, 
 Packages in src :1 sortingAlgorithms  --> contains five classes--> 1.InsertionSorter, 2.SelectionSorter, 3.QuickSorter, 4.MergeSorter, 5.BubbleSort, 
