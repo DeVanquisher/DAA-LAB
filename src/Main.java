@@ -1,3 +1,4 @@
+import searchingAlgorithms.BinarySearcher;
 import sortingAlgorithms.*;
 import utils.ArrayCreator;
 
@@ -5,9 +6,12 @@ import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class Main {
-    static int size;
+
     public static void main(String[] args) {
-        //ArrayCreator_int arrayCreator = new ArrayCreator_int();
+
+        int[] arr;
+
+        //Objects sorting algorithm classes
         ArrayCreator arrayCreator = new ArrayCreator();
         BubbleSorter bubbleSorter = new BubbleSorter();
         InsertionSorter insertionSorter = new InsertionSorter();
@@ -15,12 +19,20 @@ public class Main {
         QuickSorter quickSorter = new QuickSorter();
         MergeSorter mergeSorter = new MergeSorter();
 
+        //Objects of searching algorithm classes
+        BinarySearcher binarySearcher = new BinarySearcher();
+
         Scanner sc = new Scanner(System.in);
+
         while (true) {
             try {
+
                 System.out.print("Enter the size of array: ");
                 int size = sc.nextInt();
                 int[] array = new int[size];
+
+                arr = array;
+
                 arrayCreator.createArray(array);
                 System.out.println("\nWhat type of sorting you want to prefer?\n" +
                         "press-->1 to Bubble sort\n" +
@@ -29,6 +41,7 @@ public class Main {
                         "press-->4 to Quick sort\n"+
                         "press-->5 to Merge sort");
                 int key = sc.nextInt();
+
                 switch (key)
                 {
                     case 1: bubbleSorter.sortArray(array);
@@ -59,6 +72,7 @@ public class Main {
                     default: System.out.println("Wrong key choose either 1, 2 or 3.");
                         continue;
                 }
+
                 break;
             } catch (InputMismatchException e) {
                 System.out.println("Invalid input, please enter a number only!");
@@ -67,6 +81,17 @@ public class Main {
             }
 
         }
+        //for searching algorithm
+        System.out.print("\nDo you want search any element(y/n) :");
+
+        //variable an to choose y or no
+        char var = sc.next().charAt(0);
+        char ch = Character.toLowerCase(var);
+        int value = Character.compare(ch,'y');
+        if (value == 0)
+            binarySearcher.makeChoice(arr);
+
+
     }
 }
 
