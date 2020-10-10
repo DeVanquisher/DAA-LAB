@@ -2,11 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6d208cda-040c-4e20-8b94-ac801191087c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/searchingAlgorithms/BinarySearcher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dataStructure/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/searchingAlgorithms/binarySearch/NonRecursive.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/searchingAlgorithms/binarySearch/Recursive.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SortingAlgorithm/META-INF/SortingAlgorithm.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SortingAlgorithm/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SortingAlgorithm/sortingAlgorithms/BubbleSorter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SortingAlgorithm/sortingAlgorithms/InsertionSorter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SortingAlgorithm/sortingAlgorithms/QuickSorter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SortingAlgorithm/sortingAlgorithms/SelectionSorter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SortingAlgorithm/utils/ArrayCreator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sortingAndSearching/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/searchingAlgorithms/BinarySearcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sortingAndSearching/searchingAlgorithms/BinarySearcher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sortingAlgorithms/BubbleSorter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sortingAndSearching/sortingAlgorithms/BubbleSorter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sortingAlgorithms/InsertionSorter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sortingAndSearching/sortingAlgorithms/InsertionSorter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sortingAlgorithms/MergeSorter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sortingAndSearching/sortingAlgorithms/MergeSorter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sortingAlgorithms/QuickSorter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sortingAndSearching/sortingAlgorithms/QuickSorter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sortingAlgorithms/SelectionSorter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sortingAndSearching/sortingAlgorithms/SelectionSorter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/ArrayCreator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sortingAndSearching/utils/ArrayCreator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,15 +52,17 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="sortingAndSearching" />
       <recent name="sortingAlgorithms" />
     </key>
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+      <option name="MAIN_CLASS_NAME" value="sortingAndSearching.Main" />
       <module name="DAA-LAB" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -118,7 +132,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601980972370</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Binary search algorithm finished.">
+      <created>1602046700933</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1602046700933</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -126,13 +147,14 @@
     <MESSAGE value="Added merge sort and working on quick sort" />
     <MESSAGE value="QuickSorter working now" />
     <MESSAGE value="Added more packages" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added more packages" />
+    <MESSAGE value="Binary search algorithm finished." />
+    <option name="LAST_COMMIT_MESSAGE" value="Binary search algorithm finished." />
   </component>
   <component name="WindowStateProjectService">
-    <state x="446" y="46" key="#com.intellij.ide.util.MemberChooser" timestamp="1601548832630">
+    <state x="446" y="46" key="#com.intellij.ide.util.MemberChooser" timestamp="1602328266719">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="446" y="46" key="#com.intellij.ide.util.MemberChooser/0.0.1280.720@0.0.1280.720" timestamp="1601548832630" />
+    <state x="446" y="46" key="#com.intellij.ide.util.MemberChooser/0.0.1280.720@0.0.1280.720" timestamp="1602328266719" />
     <state x="371" y="138" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1599929947242">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
@@ -141,6 +163,10 @@
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="438" y="247" width="404" height="236" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1280.720@0.0.1280.720" timestamp="1601977819158" />
+    <state x="438" y="268" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1602166190535">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="438" y="268" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1280.720@0.0.1280.720" timestamp="1602166190535" />
     <state x="0" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1601009986940">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
@@ -149,33 +175,33 @@
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="371" y="109" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.720@0.0.1280.720" timestamp="1601548722641" />
-    <state x="280" y="0" key="CommitChangelistDialog2" timestamp="1601980970860">
+    <state x="280" y="0" key="CommitChangelistDialog2" timestamp="1602046699360">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="280" y="0" key="CommitChangelistDialog2/0.0.1280.720@0.0.1280.720" timestamp="1601980970860" />
+    <state x="280" y="0" key="CommitChangelistDialog2/0.0.1280.720@0.0.1280.720" timestamp="1602046699360" />
     <state x="421" y="117" key="FileChooserDialogImpl" timestamp="1601612799315">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="421" y="117" key="FileChooserDialogImpl/0.0.1280.720@0.0.1280.720" timestamp="1601612799315" />
-    <state width="1237" height="135" key="GridCell.Tab.0.bottom" timestamp="1602046569384">
+    <state width="1237" height="135" key="GridCell.Tab.0.bottom" timestamp="1602081059648">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="135" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1602046569384" />
+    <state width="1237" height="135" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1602081059648" />
     <state width="1323" height="238" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1600008172513" />
-    <state width="1237" height="135" key="GridCell.Tab.0.center" timestamp="1602046569384">
+    <state width="1237" height="135" key="GridCell.Tab.0.center" timestamp="1602081059648">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="135" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1602046569384" />
+    <state width="1237" height="135" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1602081059648" />
     <state width="1323" height="238" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1600008172513" />
-    <state width="1237" height="135" key="GridCell.Tab.0.left" timestamp="1602046569384">
+    <state width="1237" height="135" key="GridCell.Tab.0.left" timestamp="1602081059648">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="135" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1602046569384" />
+    <state width="1237" height="135" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1602081059648" />
     <state width="1323" height="238" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1600008172513" />
-    <state width="1237" height="135" key="GridCell.Tab.0.right" timestamp="1602046569384">
+    <state width="1237" height="135" key="GridCell.Tab.0.right" timestamp="1602081059648">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="135" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1602046569384" />
+    <state width="1237" height="135" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1602081059648" />
     <state width="1323" height="238" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1600008172513" />
     <state width="1237" height="127" key="GridCell.Tab.1.bottom" timestamp="1601980760986">
       <screen x="0" y="0" width="1280" height="720" />
@@ -197,14 +223,18 @@
     </state>
     <state width="1237" height="127" key="GridCell.Tab.1.right/0.0.1280.720@0.0.1280.720" timestamp="1601980760986" />
     <state width="1323" height="238" key="GridCell.Tab.1.right/0.0.1366.768@0.0.1366.768" timestamp="1600008194377" />
-    <state x="233" y="95" key="Vcs.Push.Dialog.v2" timestamp="1601980982599">
+    <state x="142" y="4" key="SettingsEditor" timestamp="1602217242343">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="233" y="95" key="Vcs.Push.Dialog.v2/0.0.1280.720@0.0.1280.720" timestamp="1601980982599" />
-    <state x="337" y="186" key="com.intellij.ide.util.TipDialog" timestamp="1602040329332">
+    <state x="142" y="4" key="SettingsEditor/0.0.1280.720@0.0.1280.720" timestamp="1602217242343" />
+    <state x="233" y="95" key="Vcs.Push.Dialog.v2" timestamp="1602046710249">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="337" y="186" key="com.intellij.ide.util.TipDialog/0.0.1280.720@0.0.1280.720" timestamp="1602040329332" />
+    <state x="233" y="95" key="Vcs.Push.Dialog.v2/0.0.1280.720@0.0.1280.720" timestamp="1602046710249" />
+    <state x="337" y="186" key="com.intellij.ide.util.TipDialog" timestamp="1602327717967">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="337" y="186" key="com.intellij.ide.util.TipDialog/0.0.1280.720@0.0.1280.720" timestamp="1602327717967" />
     <state x="450" y="279" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1601908164206">
       <screen x="0" y="0" width="1280" height="720" />
     </state>

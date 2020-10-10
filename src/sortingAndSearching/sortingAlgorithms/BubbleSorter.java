@@ -1,7 +1,4 @@
-package sortingAlgorithms;
-
-
-import utils.ArrayCreator;
+package sortingAndSearching.sortingAlgorithms;
 
 
 public class BubbleSorter {

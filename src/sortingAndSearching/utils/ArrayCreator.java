@@ -1,4 +1,4 @@
-package utils;
+package sortingAndSearching.utils;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;

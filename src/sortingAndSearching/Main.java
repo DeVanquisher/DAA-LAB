@@ -1,15 +1,35 @@
-import searchingAlgorithms.BinarySearcher;
-import sortingAlgorithms.*;
-import utils.ArrayCreator;
+package sortingAndSearching;
+
+import sortingAndSearching.searchingAlgorithms.BinarySearcher;
+import sortingAndSearching.sortingAlgorithms.*;
+import sortingAndSearching.utils.ArrayCreator;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-public class Main {
+public class Main{
+    private int size;
+    private int[] array;
+
+    public int getSize() {
+        return size;
+    }
+
+    public void setSize(int size) {
+        this.size = size;
+    }
+
+    public int[] getArray() {
+        return array;
+    }
+
+    public void setArray(int[] array) {
+        this.array = array;
+    }
 
     public static void main(String[] args) {
 
-        int[] arr;
+        Main ob = new Main();
 
         //Objects sorting algorithm classes
         ArrayCreator arrayCreator = new ArrayCreator();
@@ -29,9 +49,10 @@ public class Main {
 
                 System.out.print("Enter the size of array: ");
                 int size = sc.nextInt();
+                ob.setSize(size);
                 int[] array = new int[size];
+                ob.setArray(array);
 
-                arr = array;
 
                 arrayCreator.createArray(array);
                 System.out.println("\nWhat type of sorting you want to prefer?\n" +
@@ -71,6 +92,7 @@ public class Main {
                         break;
                     default: System.out.println("Wrong key choose either 1, 2 or 3.");
                         continue;
+
                 }
 
                 break;
@@ -80,16 +102,17 @@ public class Main {
                 continue;
             }
 
+
         }
         //for searching algorithm
         System.out.print("\nDo you want search any element(y/n) :");
 
-        //variable an to choose y or no
+        //variable to choose y or no
         char var = sc.next().charAt(0);
         char ch = Character.toLowerCase(var);
         int value = Character.compare(ch,'y');
         if (value == 0)
-            binarySearcher.makeChoice(arr);
+            binarySearcher.makeChoice(ob.getArray());
 
 
     }
