@@ -44,7 +44,6 @@ public class ArrayBuilder extends Throwable{
             }
             catch (InputMismatchException e){
                 System.out.println("Invalid input, enter number only.\nInput is "+e.getMessage());
-                //throw new  RuntimeException("Invalid input, enter number only/n"+e);
                 scanner.next();
                 continue;
             }

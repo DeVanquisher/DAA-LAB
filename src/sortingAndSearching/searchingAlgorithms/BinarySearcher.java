@@ -1,6 +1,7 @@
 package sortingAndSearching.searchingAlgorithms;
 
 
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class BinarySearcher {
@@ -11,26 +12,37 @@ public class BinarySearcher {
         BinarySearcher ob = new BinarySearcher();
 
         int key,item;
-        System.out.print("Which element you want to search in array :");
-        item = scanner.nextInt();
-        System.out.println("\nIn binary search choose an option given below.\n"+
-                "press-->1 for recursive method\n"+
-                "press-->2 for iterative method");
-        key = scanner.nextInt();
-        if (key ==1 ) {
-            recursiveSearch(arr, 0, arr.length - 1, item);
-            result = ob.recursiveSearch(arr, 0, arr.length - 1, item);
-        }
-        else if (key == 2) {
-            iterativeSearch(arr, item);
-            result = ob.iterativeSearch(arr,item);
-        }
+        while (true){
+            try {
+                System.out.print("Which element you want to search in array :");
+                item = scanner.nextInt();
+                System.out.println("\nIn binary search choose an option given below.\n"+
+                        "press-->1 for recursive method\n"+
+                        "press-->2 for iterative method");
+                key = scanner.nextInt();
+                if (key ==1 ) {
+                    recursiveSearch(arr, 0, arr.length - 1, item);
+                    result = ob.recursiveSearch(arr, 0, arr.length - 1, item);
+                }
+                else if (key == 2) {
+                    iterativeSearch(arr, item);
+                    result = ob.iterativeSearch(arr,item);
+                }
 
 
-        if (result == -1)
-            System.out.println("Element not present");
-        else
-            System.out.println("Element found at index " + result);
+                if (result == -1)
+                    System.out.println("Element not present");
+                else
+                    System.out.println("Element found at index " + result);
+                break;
+            }
+            catch (InputMismatchException e){
+                System.out.println("Invalid input, enter number only.\nInput is "+e.getMessage());
+                scanner.next();
+                continue;
+            }
+        }
+
 
     }
     public int recursiveSearch(int arr[], int l, int r, int x){

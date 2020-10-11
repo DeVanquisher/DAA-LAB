@@ -85,7 +85,6 @@ public class Main{
         if (value == 0)
             binarySearcher.makeChoice(array);
 
-
     }
 }
 
