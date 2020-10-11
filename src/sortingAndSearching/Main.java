@@ -2,37 +2,22 @@ package sortingAndSearching;
 
 import sortingAndSearching.searchingAlgorithms.BinarySearcher;
 import sortingAndSearching.sortingAlgorithms.*;
-import sortingAndSearching.utils.ArrayCreator;
+import sortingAndSearching.utils.ArrayBuilder;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class Main{
-    private int size;
-    private int[] array;
 
-    public int getSize() {
-        return size;
-    }
-
-    public void setSize(int size) {
-        this.size = size;
-    }
-
-    public int[] getArray() {
-        return array;
-    }
-
-    public void setArray(int[] array) {
-        this.array = array;
-    }
 
     public static void main(String[] args) {
 
-        Main ob = new Main();
+        //first we need to create array
+        ArrayBuilder arrayBuilder = new ArrayBuilder();
 
-        //Objects sorting algorithm classes
-        ArrayCreator arrayCreator = new ArrayCreator();
+        int[] array = arrayBuilder.buildArray();
+
+
         BubbleSorter bubbleSorter = new BubbleSorter();
         InsertionSorter insertionSorter = new InsertionSorter();
         SelectionSorter selectionSorter = new SelectionSorter();
@@ -44,17 +29,9 @@ public class Main{
 
         Scanner sc = new Scanner(System.in);
 
-        while (true) {
+       while (true) {
             try {
 
-                System.out.print("Enter the size of array: ");
-                int size = sc.nextInt();
-                ob.setSize(size);
-                int[] array = new int[size];
-                ob.setArray(array);
-
-
-                arrayCreator.createArray(array);
                 System.out.println("\nWhat type of sorting you want to prefer?\n" +
                         "press-->1 to Bubble sort\n" +
                         "press-->2 to Insertion sort\n"+
@@ -66,53 +43,47 @@ public class Main{
                 switch (key)
                 {
                     case 1: bubbleSorter.sortArray(array);
-                        //printing sorted array
-                        System.out.print("Array sorted : ");
-                        arrayCreator.printArray(array);
                         break;
                     case 2: insertionSorter.sortArray(array);
-                        //printing sorted array
-                        System.out.print("Array sorted : ");
-                        arrayCreator.printArray(array);
                         break;
                     case 3: selectionSorter.sortArray(array);
-                        //printing sorted array
-                        System.out.print("Array sorted : ");
-                        arrayCreator.printArray(array);
                         break;
                     case 4: quickSorter.sortArray(array,0,array.length-1);
-                        //printing sorted array
-                        System.out.print("Array sorted : ");
-                        arrayCreator.printArray(array);
                         break;
                     case 5: mergeSorter.sortArray(array,0,array.length-1);
-                        //printing sorted array
-                        System.out.print("Array sorted : ");
-                        arrayCreator.printArray(array);
                         break;
                     default: System.out.println("Wrong key choose either 1, 2 or 3.");
                         continue;
 
                 }
+                System.out.print("Array sorted : ");
+                arrayBuilder.printArray(array);
+               // arrayCreator.printArray(ob.getArray());
 
                 break;
             } catch (InputMismatchException e) {
                 System.out.println("Invalid input, please enter a number only!");
                 sc.next();
+               continue;
+            }
+            catch (NullPointerException e){
+                System.out.println("Enter int value only.");
                 continue;
+
             }
 
 
         }
+
         //for searching algorithm
-        System.out.print("\nDo you want search any element(y/n) :");
+        System.out.print("\nDo you want search location of any element(y/n) :");
 
         //variable to choose y or no
         char var = sc.next().charAt(0);
         char ch = Character.toLowerCase(var);
         int value = Character.compare(ch,'y');
         if (value == 0)
-            binarySearcher.makeChoice(ob.getArray());
+            binarySearcher.makeChoice(array);
 
 
     }
