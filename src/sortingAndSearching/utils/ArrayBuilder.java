@@ -28,7 +28,7 @@ public class ArrayBuilder extends Throwable{
         Scanner scanner = new Scanner(System.in);
         while (true){
             try {
-                System.out.print("To create array enter size of array : ");
+                System.out.print("To create an array enter size of array : ");
                 int size = scanner.nextInt();
 
                 setARRAY_SIZE(size);
