@@ -35,11 +35,12 @@ public class ArrayBuilder extends Throwable{
                 int[] array = new int[size];
                 setARRAY(array);
 
-                System.out.println("\nEnter "+size+" element below:");
+                System.out.println("\nEnter "+size+" elements below:");
                 for (int i = 0; i<size; i++){
                     int element = scanner.nextInt();
                     array[i] = element;
                 }
+
                 break;
             }
             catch (InputMismatchException e){

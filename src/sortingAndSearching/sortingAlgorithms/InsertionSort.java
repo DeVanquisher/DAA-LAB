@@ -2,7 +2,7 @@ package sortingAndSearching.sortingAlgorithms;
 
 
 
-public class InsertionSorter {
+public class InsertionSort {
     public void sortArray(int[] array){
         for (int i = 1; i<array.length; i++){
             int temp = array[i];

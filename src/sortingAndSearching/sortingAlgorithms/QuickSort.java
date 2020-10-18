@@ -1,7 +1,7 @@
 package sortingAndSearching.sortingAlgorithms;
 
 
-public class QuickSorter {
+public class QuickSort {
 
     public void sortArray(int[] array, int low, int high) {
         if (low < high)

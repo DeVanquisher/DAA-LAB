@@ -1,7 +1,7 @@
 package sortingAndSearching.sortingAlgorithms;
 
 
-public class SelectionSorter {
+public class SelectionSort {
     public void sortArray(int[] array){
         int len = array.length;
         for(int i=0; i<len-1; i++){

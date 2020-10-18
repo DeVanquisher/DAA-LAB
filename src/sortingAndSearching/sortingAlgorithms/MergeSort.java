@@ -1,7 +1,7 @@
 package sortingAndSearching.sortingAlgorithms;
 
 
-public class MergeSorter {
+public class MergeSort {
 
     public void sortArray(int[] array,int l, int r){
         if (l < r) {
