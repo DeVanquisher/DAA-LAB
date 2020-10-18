@@ -1,6 +1,7 @@
 package sortingAndSearching.searchingAlgorithms;
 
 
+import sortingAndSearching.utils.ArrayBuilder;
 import sortingAndSearching.utils.DuplicateElement;
 
 import java.util.InputMismatchException;
@@ -12,18 +13,19 @@ public class BinarySearch {
 
     public void makeChoice(int[] arr){
         BinarySearch ob = new BinarySearch();
-       // RepeatedElementCollector repeatedElementCollector = new RepeatedElementCollector();
-
+        ArrayBuilder arrayBuilder = new ArrayBuilder();
         int key,item;
         while (true){
             try {
-                System.out.print("Which element you want to search in array :");
+                System.out.print("Which element you want to search in array? :");
                 item = scanner.nextInt();
+                System.out.println("Array has been sorted in ascending order to binary search :");
+                arrayBuilder.printArray(arr);
 
                 DuplicateElement duplicateElement = new DuplicateElement();
                 duplicateElement.checkIdenticalElements(arr,item);
 
-                System.out.println("\nIn binary search choose an option given below.\n"+
+                System.out.println("In binary search choose an option given below.\n"+
                         "press-->1 for recursive method\n"+
                         "press-->2 for iterative method");
                 key = scanner.nextInt();

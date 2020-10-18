@@ -1,6 +1,5 @@
 package sortingAndSearching.utils;
 
-import java.util.ArrayList;
 
 public class DuplicateElement {
     public void checkIdenticalElements(int[] array, int element){
@@ -11,7 +10,7 @@ public class DuplicateElement {
             }
         }
         if (numOfRepeats > 1)
-            System.out.println(element+" found at "+numOfRepeats+" times.");
+            System.out.println("Element "+element+" found at "+numOfRepeats+" times.");
 
     }
 }

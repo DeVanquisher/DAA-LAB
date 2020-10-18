@@ -18,11 +18,11 @@ public class Main{
         int[] array = arrayBuilder.buildArray();
 
 
-        BubbleSort bubbleSorter = new BubbleSort();
-        InsertionSort insertionSorter = new InsertionSort();
-        SelectionSort selectionSorter = new SelectionSort();
-        QuickSort quickSorter = new QuickSort();
-        MergeSort mergeSorter = new MergeSort();
+        BubbleSort bubbleSort = new BubbleSort();
+        InsertionSort insertionSort = new InsertionSort();
+        SelectionSort selectionSort = new SelectionSort();
+        QuickSort quickSort = new QuickSort();
+        MergeSort mergeSort = new MergeSort();
 
         //Objects of searching algorithm classes
         BinarySearch binarySearcher = new BinarySearch();
@@ -47,19 +47,19 @@ public class Main{
 
                     switch (key) {
                         case 1:
-                            bubbleSorter.sortArray(array);
+                            bubbleSort.sortArray(array);
                             break;
                         case 2:
-                            insertionSorter.sortArray(array);
+                            insertionSort.sortArray(array);
                             break;
                         case 3:
-                            selectionSorter.sortArray(array);
+                            selectionSort.sortArray(array);
                             break;
                         case 4:
-                            quickSorter.sortArray(array, 0, array.length - 1);
+                            quickSort.sortArray(array, 0, array.length - 1);
                             break;
                         case 5:
-                            mergeSorter.sortArray(array, 0, array.length - 1);
+                            mergeSort.sortArray(array, 0, array.length - 1);
                             break;
                         default:
                             System.out.println("Wrong key choose either 1, 2 or 3.");
@@ -80,6 +80,9 @@ public class Main{
                         binarySearcher.makeChoice(array);
 
                 } else if (option == 2) {
+                    mergeSort.sortArray(array,0,array.length-1);
+
+                    //arrayBuilder.printArray(array);
                     binarySearcher.makeChoice(array);
 
                 } else

@@ -2,16 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6d208cda-040c-4e20-8b94-ac801191087c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/sortingAndSearching/utils/DuplicateElement.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sortingAndSearching/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sortingAndSearching/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sortingAndSearching/searchingAlgorithms/BinarySearcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sortingAndSearching/searchingAlgorithms/BinarySearch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sortingAndSearching/sortingAlgorithms/BubbleSorter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sortingAndSearching/sortingAlgorithms/BubbleSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sortingAndSearching/sortingAlgorithms/InsertionSorter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sortingAndSearching/sortingAlgorithms/InsertionSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sortingAndSearching/sortingAlgorithms/MergeSorter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sortingAndSearching/sortingAlgorithms/MergeSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sortingAndSearching/sortingAlgorithms/QuickSorter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sortingAndSearching/sortingAlgorithms/QuickSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sortingAndSearching/sortingAlgorithms/SelectionSorter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sortingAndSearching/sortingAlgorithms/SelectionSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sortingAndSearching/searchingAlgorithms/BinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sortingAndSearching/searchingAlgorithms/BinarySearch.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sortingAndSearching/utils/ArrayBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sortingAndSearching/utils/ArrayBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sortingAndSearching/utils/DuplicateElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sortingAndSearching/utils/DuplicateElement.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -162,7 +157,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602858395847</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Renamed classes and included duplicate element class.">
+      <created>1603001771644</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1603001771644</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -175,7 +177,8 @@
     <MESSAGE value="Rectified the bug in exception handling." />
     <MESSAGE value="Implemented exception handling in searching algorithm too." />
     <MESSAGE value="Little changes." />
-    <option name="LAST_COMMIT_MESSAGE" value="Little changes." />
+    <MESSAGE value="Renamed classes and included duplicate element class." />
+    <option name="LAST_COMMIT_MESSAGE" value="Renamed classes and included duplicate element class." />
   </component>
   <component name="WindowStateProjectService">
     <state x="446" y="46" key="#com.intellij.ide.util.MemberChooser" timestamp="1602395484542">
@@ -202,33 +205,33 @@
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="371" y="109" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.720@0.0.1280.720" timestamp="1601548722641" />
-    <state x="336" y="0" key="CommitChangelistDialog2" timestamp="1603001750901">
+    <state x="336" y="0" key="CommitChangelistDialog2" timestamp="1603001770112">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="336" y="0" key="CommitChangelistDialog2/0.0.1280.720@0.0.1280.720" timestamp="1603001750901" />
+    <state x="336" y="0" key="CommitChangelistDialog2/0.0.1280.720@0.0.1280.720" timestamp="1603001770112" />
     <state x="421" y="117" key="FileChooserDialogImpl" timestamp="1601612799315">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="421" y="117" key="FileChooserDialogImpl/0.0.1280.720@0.0.1280.720" timestamp="1601612799315" />
-    <state width="1237" height="242" key="GridCell.Tab.0.bottom" timestamp="1603001750991">
+    <state width="1237" height="562" key="GridCell.Tab.0.bottom" timestamp="1603016190829">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="242" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1603001750991" />
+    <state width="1237" height="562" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1603016190829" />
     <state width="1323" height="238" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1600008172513" />
-    <state width="1237" height="242" key="GridCell.Tab.0.center" timestamp="1603001750991">
+    <state width="1237" height="562" key="GridCell.Tab.0.center" timestamp="1603016190829">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="242" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1603001750991" />
+    <state width="1237" height="562" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1603016190829" />
     <state width="1323" height="238" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1600008172513" />
-    <state width="1237" height="242" key="GridCell.Tab.0.left" timestamp="1603001750991">
+    <state width="1237" height="562" key="GridCell.Tab.0.left" timestamp="1603016190813">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="242" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1603001750991" />
+    <state width="1237" height="562" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1603016190813" />
     <state width="1323" height="238" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1600008172513" />
-    <state width="1237" height="242" key="GridCell.Tab.0.right" timestamp="1603001750991">
+    <state width="1237" height="562" key="GridCell.Tab.0.right" timestamp="1603016190829">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="242" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1603001750991" />
+    <state width="1237" height="562" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1603016190829" />
     <state width="1323" height="238" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1600008172513" />
     <state width="1237" height="127" key="GridCell.Tab.1.bottom" timestamp="1602434819545">
       <screen x="0" y="0" width="1280" height="720" />
@@ -254,14 +257,14 @@
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="142" y="4" key="SettingsEditor/0.0.1280.720@0.0.1280.720" timestamp="1602217242343" />
-    <state x="233" y="95" key="Vcs.Push.Dialog.v2" timestamp="1602858417037">
+    <state x="233" y="95" key="Vcs.Push.Dialog.v2" timestamp="1603001801831">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="233" y="95" key="Vcs.Push.Dialog.v2/0.0.1280.720@0.0.1280.720" timestamp="1602858417037" />
-    <state x="337" y="186" key="com.intellij.ide.util.TipDialog" timestamp="1602995586530">
+    <state x="233" y="95" key="Vcs.Push.Dialog.v2/0.0.1280.720@0.0.1280.720" timestamp="1603001801831" />
+    <state x="337" y="186" key="com.intellij.ide.util.TipDialog" timestamp="1603012152831">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="337" y="186" key="com.intellij.ide.util.TipDialog/0.0.1280.720@0.0.1280.720" timestamp="1602995586530" />
+    <state x="337" y="186" key="com.intellij.ide.util.TipDialog/0.0.1280.720@0.0.1280.720" timestamp="1603012152831" />
     <state x="450" y="279" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602337126954">
       <screen x="0" y="0" width="1280" height="720" />
     </state>

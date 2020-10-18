@@ -35,7 +35,7 @@ public class ArrayBuilder extends Throwable{
                 int[] array = new int[size];
                 setARRAY(array);
 
-                System.out.println("\nEnter "+size+" elements below:");
+                System.out.println("Enter "+size+" elements below:");
                 for (int i = 0; i<size; i++){
                     int element = scanner.nextInt();
                     array[i] = element;
@@ -66,5 +66,6 @@ public class ArrayBuilder extends Throwable{
             if (i==array.length-1)
                 System.out.print("]");
         }
+        System.out.println();
     }
 }
