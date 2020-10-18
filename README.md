@@ -1,5 +1,5 @@
 # DAA-LAB
-Experiments of DAA-LAB of 5th semester
+Experiments of DAA-LAB
 
 This is the project architecture.
 
